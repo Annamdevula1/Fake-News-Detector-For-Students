@@ -1,9 +1,0 @@
-fake-news-detector/
-│
-├── app.py
-├── requirements.txt
-├── fake_news_model.pkl
-├── vectorizer.pkl
-├── README.md
-└── data/
-    └── news.csv
