@@ -5,8 +5,5 @@ numpy
 joblib
 nltk
 requests
-transformers
-pickle5
-scipy
 matplotlib
 seaborn
