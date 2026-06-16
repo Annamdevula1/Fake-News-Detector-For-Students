@@ -3,3 +3,11 @@ scikit-learn
 pandas
 numpy
 joblib
+nltk
+requests
+transformers
+torch
+pickle5
+scipy
+matplotlib
+seaborn
