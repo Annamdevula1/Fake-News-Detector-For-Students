@@ -6,7 +6,6 @@ joblib
 nltk
 requests
 transformers
-torch
 pickle5
 scipy
 matplotlib
