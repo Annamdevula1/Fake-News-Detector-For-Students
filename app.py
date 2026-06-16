@@ -6,7 +6,7 @@ model = joblib.load("fake_news_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
 st.title("📰 Fake News Detector for Students")
-st.write("streamlit is working!")
+
 
 news = st.text_area("Paste News Article Here")
 
