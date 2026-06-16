@@ -1,0 +1,9 @@
+text,label
+"Scientists discover new water source on Mars",1
+"Aliens officially elected as world leaders",0
+"Government launches new education scheme",1
+"Magic fruit cures all diseases instantly",0
+"Researchers develop low-cost solar technology",1
+"People become invisible after drinking tea",0
+  1 = Real News
+  0 = Fake News
