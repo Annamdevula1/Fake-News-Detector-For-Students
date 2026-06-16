@@ -26,7 +26,7 @@ if st.button("Check News"):
         st.write(summary)
 
         st.subheader("Verification Tips")
-        st.write("""
+        st.write(""" 
         ✓ Verify the source
 
         ✓ Check publication date
