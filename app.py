@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 # Load model and vectorizer
-model = joblib.load(open("fake_news_model.pkl""rb"))
+model = joblib.load(open("fake_news_model.pkl","rb"))
 vectorizer = joblib.load(open("vectorizer.pkl","rb" ))
 
 st.title("📰 Fake News Detector for Students")
