@@ -1,6 +1,5 @@
 import streamlit as st
 import joblib
-st.write("App started")
 # Load model and vectorizer
 model = joblib.load(open("fake_news_model.pkl"))
 vectorizer = joblib.load(open("vectorizer.pkl", ))
