@@ -1,9 +1,11 @@
 
-                    📰 FAKE NEWS DETECTOR FOR STUDENTS 
-                       Banner image
+                        📰 FAKE NEWS DETECTOR FOR STUDENTS 
+                               Banner image
 <img width="1536" height="1024" alt="1000244731" src="https://github.com/user-attachments/assets/16bfecda-b5f4-4831-a126-db4998c5a79f" />
+
 Live Demo:
 https://fake-news-detector-for-students-g8zi8aalxwrwgcpanpueie.streamlit.app/
+
 
 📌 Project Overview
 
