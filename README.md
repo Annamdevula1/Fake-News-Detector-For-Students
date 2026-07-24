@@ -1,7 +1,9 @@
 
-                    📰 Fake News Detector for Students
+                    📰 FAKE NEWS DETECTOR FOR STUDENTS 
                        Banner image
 <img width="1536" height="1024" alt="1000244731" src="https://github.com/user-attachments/assets/16bfecda-b5f4-4831-a126-db4998c5a79f" />
+Live Demo:
+https://fake-news-detector-for-students-g8zi8aalxwrwgcpanpueie.streamlit.app/
 
 📌 Project Overview
 
@@ -17,6 +19,17 @@ To classify news articles as Fake or Real using Natural Language Processing (NLP
 - User-friendly interface.
 - Fast and accurate predictions.
 - Designed for educational purposes.
+Application screenshots
+<img width="1080" height="2400" alt="1000244732" src="https://github.com/user-attachments/assets/4e22b828-9d66-40a5-9872-c67e3c3d5b6d" />
+
+<img width="1080" height="2400" alt="1000244733" src="https://github.com/user-attachments/assets/10ad4add-22b9-4618-94ef-3e9a405caad2" />
+
+<img width="1080" height="2400" alt="1000244734" src="https://github.com/user-attachments/assets/c180fb76-756f-42bf-b015-545cce4552fe" />
+
+<img width="1080" height="2400" alt="1000244736" src="https://github.com/user-attachments/assets/a502b61e-d76f-47da-8544-bbdbad448e70" />
+
+<img width="1080" height="2400" alt="1000244735" src="https://github.com/user-attachments/assets/d9c45239-3dfb-414c-ae3d-6a561f0af2c5" />
+
 
 🛠️ Technologies Used
 
