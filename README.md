@@ -31,7 +31,7 @@ To classify news articles as Fake or Real using Natural Language Processing (NLP
 🤖 Machine Learning Model
 
 - TF-IDF Vectorizer
-- Passive Aggressive Classifier (or replace with the model you used)
+- Passive Aggressive Classifier
 
 📊 Dataset
 
