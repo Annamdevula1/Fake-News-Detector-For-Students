@@ -66,4 +66,4 @@ The model predicts whether the given news article is:
 
 👨‍💻 Author
 
-Durga Prasad
+Durga Prasad Annamdevula 
