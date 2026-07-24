@@ -59,6 +59,8 @@ The model predicts whether the given news article is:
 
 - ✅ Real News
 - ❌ Fake News
+  <img width="1080" height="2400" alt="1000244736" src="https://github.com/user-attachments/assets/1a9a68dd-1263-42d3-a72d-3e87e66ac69a" />
+
 
 👨‍💻 Author
 
