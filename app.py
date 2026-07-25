@@ -427,7 +427,7 @@ if st.button("🗑 Clear Screen"):
 st.markdown("---")
 
 st.success("""
-🎉 Thank you for using the Fake News Detection System!
+ Thank you for using the Fake News Detection System!
 
 We hope this application helps you identify potentially fake news quickly and effectively.
 """)
