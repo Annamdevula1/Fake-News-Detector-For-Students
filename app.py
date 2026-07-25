@@ -139,18 +139,11 @@ TF-IDF Vectorizer
 • Real News = 1
 """)
 
-    st.markdown("---")
 
-    st.subheader("📖 How to Use")
 
-    st.write("""
-1. Paste a news article.
-2. Click **Predict**.
-3. View the prediction result.
-4. Check the confidence score.
-""")
+    
 
-    st.markdown("---")
+
 
     st.subheader("ℹ About")
 
@@ -241,16 +234,7 @@ if predict:
 
         if prediction == 1:
             st.info("""
-### Interpretation
 
-The model predicts that the entered news article is **likely REAL** based on the learned text patterns from the training dataset.
-""")
-        else:
-            st.info("""
-### Interpretation
-
-The model predicts that the entered news article is **likely FAKE** based on the learned text patterns from the training dataset.
-""")
 # =====================================================
 # Project Information
 # =====================================================
@@ -260,12 +244,10 @@ st.markdown("---")
 st.header("📌 Project Overview")
 
 st.write("""
-The **Fake News Detection System** is a Machine Learning application
-that predicts whether a news article is **Real** or **Fake** based on
-its textual content.
+The Fake News Detector for studentsis a Machine Learning application
+that classifies or predicts whether a news article is Real or Fake Using NLP Techniques.
 
-The model has been trained using the **Logistic Regression** algorithm
-along with **TF-IDF Vectorization** for text feature extraction.
+It provides fast and accurate predictions through an easy to use streamlit interface.
 """)
 
 # =====================================================
@@ -307,20 +289,6 @@ st.write("""
 - Longer text generally produces more reliable predictions.
 - The prediction is based only on the text entered.
 - Always verify important news from trusted official sources.
-""")
-
-# =====================================================
-# Disclaimer
-# =====================================================
-
-st.markdown("---")
-
-st.warning("""
-**Disclaimer**
-
-This application is intended for educational and demonstration purposes.
-Machine Learning predictions are not always 100% accurate.
-Always verify important news using trusted news sources.
 """)
 
 # =====================================================
