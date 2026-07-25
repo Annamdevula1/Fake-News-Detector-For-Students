@@ -297,11 +297,11 @@ st.markdown(
 
 ### 📰 Fake News Detection System
 
- Developed using ❤️ with **Python, Streamlit, Scikit-learn & Machine Learning**
+Developed using  with Python, Streamlit, Scikit-learn & Machine Learning
 
-**Model:** Logistic Regression
+Model:Logistic Regression
 
-**Text Processing:** TF-IDF Vectorizer
+Text Processing:TF-IDF Vectorizer
 
 © 2026 All Rights Reserved
 
