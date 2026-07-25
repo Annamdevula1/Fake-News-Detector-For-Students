@@ -73,8 +73,8 @@ print(classification_report(y_test, y_pred))
 # Save Model & Vectorizer
 # ===========================
 
-joblib.dump(model, "fake_news_model.pkl")
-joblib.dump(vectorizer, "tfidf_vectorizer.pkl")
+joblib.dump(model,"fake_news_model.pkl")
+joblib.dump(vectorizer, vectorizer.pkl")
 
-print("\nModel saved as fake_news_model.pkl")
-print("Vectorizer saved as tfidf_vectorizer.pkl")
+print("Model and vectorizer saved successfully")
+
