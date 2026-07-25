@@ -387,26 +387,25 @@ else:
 # -----------------------------
 if predict and news_text.strip() != "":
 
-    report = f"""
+report = f"""
 Fake News Detection Report
 
 Prediction :
 {"Real News" if prediction == 1 else "Fake News"}
 
 Confidence :
-f"{confidence:.2f}%"
-report=f"""
+{confidence:.2f}%
+
 Real Probability :
-{probability[1]*100:.2f}%
-"""
-report=f"""
+{probability[1] * 100:.2f}%
+
 Fake Probability :
-{probability[0]*100:.2f}%
-"""
+{probability[0] * 100:.2f}%
 
 News Text :
 {news_text}
 """
+
 
     st.download_button(
         label="📥 Download Prediction Report",
