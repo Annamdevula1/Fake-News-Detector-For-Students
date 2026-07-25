@@ -399,8 +399,10 @@ report=f"""
 Real Probability :
 {probability[1]*100:.2f}%
 """
+report=f"""
 Fake Probability :
 {probability[0]*100:.2f}%
+"""
 
 News Text :
 {news_text}
