@@ -303,7 +303,7 @@ Model:Logistic Regression
 
 Text Processing:TF-IDF Vectorizer
 
-© 2026 All Rights Reserved
+2026 All Rights Reserved
 
 </div>
 """,
