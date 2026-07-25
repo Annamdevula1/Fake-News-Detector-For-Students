@@ -394,11 +394,11 @@ Prediction :
 {"Real News" if prediction == 1 else "Fake News"}
 
 Confidence :
- f"{confidence:.2f}%"
-
+f"{confidence:.2f}%"
+report=f"""
 Real Probability :
 {probability[1]*100:.2f}%
-
+"""
 Fake Probability :
 {probability[0]*100:.2f}%
 
