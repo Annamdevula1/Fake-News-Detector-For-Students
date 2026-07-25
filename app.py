@@ -386,8 +386,7 @@ else:
 # Download Result
 # -----------------------------
 if predict and news_text.strip() != "":
-
-report = f"""
+ report = f"""
 Fake News Detection Report
 
 Prediction :
