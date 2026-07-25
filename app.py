@@ -404,7 +404,7 @@ Fake Probability :
 News Text :
 {news_text}
 """
-    st.download_button(
+st.download_button(
         label="📥 Download Prediction Report",
         data=report,
         file_name="prediction_report.txt",
