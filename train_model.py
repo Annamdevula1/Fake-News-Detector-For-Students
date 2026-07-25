@@ -1,23 +1,80 @@
 import pandas as pd
-import pickle
+import joblib
 
+from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
 
-# Dataset
-df = pd.read_csv("NEWS DATASET 2.csv")
+# ===========================
+# Load Dataset
+# ===========================
 
-X = df["TEXT"]
-y = df["LABEL"]
+df = pd.read_csv("news.csv", engine="python", on_bad_lines="skip")
 
-vectorizer = TfidfVectorizer(max_features=5000)
+# Remove missing values
+df.dropna(inplace=True)
 
-X_vectorized = vectorizer.fit_transform(X)
+# ===========================
+# Features & Target
+# ===========================
 
-model = LogisticRegression()
-model.fit(X_vectorized, y)
+X = df["text"]
+y = df["label"]
 
-pickle.dump(model, open("fake_news_model.pkl", "wb"))
-pickle.dump(vectorizer, open("vectorizer.pkl", "wb"))
+# ===========================
+# Train-Test Split
+# ===========================
 
-print("Model Saved Successfully")
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.2,
+    random_state=42
+)
+
+# ===========================
+# TF-IDF Vectorizer
+# ===========================
+
+vectorizer = TfidfVectorizer(stop_words="english")
+
+X_train_vectorized = vectorizer.fit_transform(X_train)
+X_test_vectorized = vectorizer.transform(X_test)
+
+# ===========================
+# Train Logistic Regression Model
+# ===========================
+
+model = LogisticRegression(max_iter=1000)
+
+model.fit(X_train_vectorized, y_train)
+
+# ===========================
+# Prediction
+# ===========================
+
+y_pred = model.predict(X_test_vectorized)
+
+# ===========================
+# Evaluation
+# ===========================
+
+accuracy = accuracy_score(y_test, y_pred)
+
+print("=" * 50)
+print("Model Accuracy :", round(accuracy * 100, 2), "%")
+print("=" * 50)
+
+print("\nClassification Report:\n")
+print(classification_report(y_test, y_pred))
+
+# ===========================
+# Save Model & Vectorizer
+# ===========================
+
+joblib.dump(model, "fake_news_model.pkl")
+joblib.dump(vectorizer, "tfidf_vectorizer.pkl")
+
+print("\nModel saved as fake_news_model.pkl")
+print("Vectorizer saved as tfidf_vectorizer.pkl")
