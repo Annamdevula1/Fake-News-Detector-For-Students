@@ -280,10 +280,12 @@ st.markdown("---")
 st.subheader("💡 Tips for Better Prediction")
 
 st.write("""
-- Enter a complete news article instead of only a headline.
-- Longer text generally produces more reliable predictions.
-- The prediction is based only on the text entered.
-- Always verify important news from trusted official sources.
+- Check And Verify The Source.
+- Verify The Author.
+- Check The Publication Date.
+- Read Beyond The Headline.
+- Cross Check With Trusted Websites.
+- Beware Of Sensational Headlines.
 """)
 
 # =====================================================
