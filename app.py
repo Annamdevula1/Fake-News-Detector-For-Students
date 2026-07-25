@@ -148,9 +148,10 @@ This application predicts whether a news article is **Real** or **Fake** using a
 st.markdown("### ✍ Enter News Article")
 
 news_text = st.text_area(
-    "",
-    height=250,
-    placeholder="Paste or type a news article here..."
+    "News Article",
+     height=250,
+    placeholder="Paste or type a news article here...",
+    label_visibility="collapsed"
 )
 # =====================================================
 # Prediction Section
