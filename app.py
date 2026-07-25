@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
- st.image("FAKE NEWS IMAGE.jpeg", width= 1000)
+st.image("FAKE NEWS IMAGE.jpeg", width= 1000)
 
 # -----------------------------
 # Load Model & Vectorizer
