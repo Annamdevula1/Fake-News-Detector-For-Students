@@ -139,12 +139,6 @@ TF-IDF Vectorizer
 • Real News = 1
 """)
 
-
-
-    
-
-
-
     st.subheader("ℹ About")
 
     st.write("""
@@ -303,7 +297,7 @@ st.markdown(
 
 ### 📰 Fake News Detection System
 
-Developed using ❤️ with **Python, Streamlit, Scikit-learn & Machine Learning**
+ Developed using ❤️ with **Python, Streamlit, Scikit-learn & Machine Learning**
 
 **Model:** Logistic Regression
 
