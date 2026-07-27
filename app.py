@@ -6,7 +6,7 @@ import numpy as np
 # Page Configuration
 # -----------------------------
 st.set_page_config(
-    page_title="Fake News Detection System",
+    page_title="Fake News Detector For Students",
     page_icon="📰",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -85,7 +85,7 @@ st.markdown("""
 # =====================================================
 
 st.markdown(
-    "<h1 class='title'>📰 Fake News Detection System</h1>",
+    "<h1 class='title'>📰 Fake News Detector For Students</h1>",
     unsafe_allow_html=True
 )
 
@@ -112,7 +112,7 @@ with st.sidebar:
 
     st.info("""
 **Project Name**
-Fake News Detection System
+Fake News Detector For Students 
 """)
 
     st.success("""
@@ -239,7 +239,7 @@ st.markdown("---")
 st.header("📌 Project Overview")
 
 st.write("""
-The Fake News Detector for studentsis a Machine Learning application
+The Fake News Detector for students is a Machine Learning application
 that classifies or predicts whether a news article is Real or Fake Using NLP Techniques.
 
 It provides fast and accurate predictions through an easy to use streamlit interface.
@@ -298,7 +298,7 @@ st.markdown(
 """
 <div style='text-align:center;color:gray;'>
 
-### 📰 Fake News Detection System
+### 📰 Fake News Detector For Students 
 
 Developed using  with Python, Streamlit, Scikit-learn & Machine Learning
 
@@ -426,7 +426,7 @@ if st.button("🗑 Clear Screen"):
 st.markdown("---")
 
 st.success("""
- Thank you for using the Fake News Detection System!
+ Thank you for using the Fake News Detector For Students.
 
 We hope this application helps you identify potentially fake news quickly and effectively.
 """)
